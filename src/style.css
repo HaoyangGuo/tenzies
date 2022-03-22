@@ -102,7 +102,7 @@ select {
     line-height: 1;
     text-align: center;
     color: #2B283A;
-    margin: 2.5rem 0 calc(.5rem + 1vh) 0;
+    margin: calc(2rem + 2.75%) 0 calc(.5rem + 1vh) 0;
 }
 
 .card--instruction {
@@ -144,6 +144,45 @@ select {
     background: #FFFFFF;
     box-shadow: 0px .25rem .25rem rgba(0, 0, 0, 0.15);
     border-radius: .65rem;
+}
+
+.held {
+  background: #59E391;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+
+  @media screen and (-ms-high-contrast: active) {
+    border: 2px solid currentcolor;
+  }
+}
+
+.card--btn {
+  background-color: #5035FF;
+  width: calc(6rem + 10%);
+  aspect-ratio: 2.618033/1.1;
+  margin-top: 3rem;
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: calc(2rem + 10%);
+  line-height: 1.2;
+  color: #FFFFFF;
+  box-shadow: 0px .25rem .25rem rgba(0, 0, 0, 0.15);
+  border-radius: .65rem;
+  margin-bottom: calc(2rem + 2.75%);
+}
+
+.card--btn:focus {
+  outline: none;
+}
+
+.card--btn:active {
+  box-shadow: inset .3rem .3rem .5rem -0.1rem rgba(0, 0, 0, 0.7);
 }
 
 /* Extra small devices (phones, 600px and down) */
