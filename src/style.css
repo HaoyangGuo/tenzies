@@ -102,7 +102,7 @@ select {
     line-height: 1;
     text-align: center;
     color: #2B283A;
-    margin: calc(2rem + 2.75%) 0 calc(.5rem + 1vh) 0;
+    margin: calc(1rem + 8vh) 0 calc(.5rem + 1vh) 0;
 }
 
 .card--instruction {
@@ -164,8 +164,7 @@ button {
 
 .card--btn {
   background-color: #5035FF;
-  width: calc(6rem + 10%);
-  aspect-ratio: 2.618033/1.1;
+  padding: 1rem 3rem 1rem 3rem;
   margin-top: 3rem;
   font-family: 'Karla';
   font-weight: 700;
